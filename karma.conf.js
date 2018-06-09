@@ -5,6 +5,13 @@ module.exports = function (config) {
   config.set({
     basePath: '',
     frameworks: ['jasmine', '@angular/cli'],
+    files:[
+      'scripts/underscore.js',
+      'scripts/jquery-1.8.0.js',
+      'scripts/jasmine-jquery/jasmine-jquery.js',
+      'scripts/jasmine-data-provider/SpecHelper.js',
+      'tests/*.js'
+    ],
     plugins: [
       require('karma-jasmine'),
       require('karma-chrome-launcher'),
@@ -21,6 +28,10 @@ module.exports = function (config) {
     },
     angularCli: {
       environment: 'dev'
+    },
+    junitReporter:{
+      outputFile:'test_out/unit.xml',
+      suite:'unit'
     },
     reporters: ['progress', 'kjhtml'],
     port: 9876,
