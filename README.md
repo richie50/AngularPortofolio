@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # DevExtremeApp
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.7.4.
@@ -29,4 +29,4 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 =======
 # AngularPortofolio
 Angular2+ with bootstrapping 
->>>>>>> af9d884b2c9855cd9fca41fb6f14e5a166b45895
+
